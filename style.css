@@ -1,0 +1,42 @@
+h1, h2, span{
+    color: red;
+}
+
+div p{
+    font-weight: 600;
+}
+
+ul li>span{
+    font-weight: 600;
+}
+
+ol li + li{
+    list-style: none;
+}
+
+h3~h4{
+    color: aqua;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+}
+.block-border{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 4px solid blue;
+    margin: 5px;
+}
+
+#first{
+    background-color: lime;
+}
+#second{
+    border-radius: 50px;
+}
+
+
